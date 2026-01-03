@@ -48,7 +48,7 @@ All interactions are handled through a single FastAPI endpoint:
     ```
 6. **Run the FastAPI Server**
     ```bash
-    uvicorn app.main:app --reload
+    uvicorn main:app --reload
     ```
 7. **Server will start at:**
     ```bash
