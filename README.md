@@ -11,6 +11,16 @@ Samsung phone data (20–30 models) is scraped from **GSMArena** and stored in a
 - **Agent 2: Review Generator** – Produces comparisons and recommendations in natural language  
 - **Response Composer** – Unifies factual data and generated insights into a final answer  
 
+### ⚙️ Tech Stack
+
+- **langchain** 
+- **langgraph** 
+- **google-generativeai** 
+- **fastapi** 
+- **uvicorn** 
+- **sqlalchemy** 
+- **psycopg2-binary**
+
 ### 🚀 API Access
 
 All interactions are handled through a single FastAPI endpoint:
